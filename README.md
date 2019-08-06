@@ -4,7 +4,7 @@
 Octave uses React as the library/framework for its frontend.
 
 ### Installation
-Git clone the repo to install the front-end. You will also need the back-end code provided 'here' in order to fully run the app.
+Git clone the repo to install the front-end. You will also need the back-end code provided [here](https://github.com/bryan-vh/octave-backend) in order to fully run the app.
 
 Please sign up on Spotify with your own application in the Spotify Developer's Dashboard to get your own client ID and client secret to utilize their search and auth functionality.
 
