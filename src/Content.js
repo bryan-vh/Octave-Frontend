@@ -15,7 +15,6 @@ export default class Content extends Component {
         super(props);
 
         this.state = {
-            tries: 0,
             gotSong: false,
             title: null,
             artist: null,
@@ -170,8 +169,6 @@ export default class Content extends Component {
 
         let json = await response.json();
 
-        console.log(json);
-
         let token = json.token;
         let tracks = json.body.tracks;
         let items = tracks.items;
@@ -190,8 +187,6 @@ export default class Content extends Component {
             }
         });
         let json = await response.json();
-
-        console.log(json);
 
         let name = json.name;
         let preview = json.preview_url;
@@ -229,8 +224,6 @@ export default class Content extends Component {
             }
         });
         let json = await response.json();
-
-        console.log(json);
 
         let tempo = Math.round(json.tempo);
         let millis = json.duration_ms;
@@ -270,7 +263,7 @@ export default class Content extends Component {
 
     render(){
         const {
-            tries,
+            // tries,
             recording,
             visible,
             title,
@@ -303,7 +296,7 @@ export default class Content extends Component {
                         )}
                     </Palette>
                 ) : (
-                    <MainContent tries={tries} recordAudio={this.recordAudio} recording={recording} visible={visible}/>
+                    <MainContent recordAudio={this.recordAudio} recording={recording} visible={visible}/>
                 )}
             </>
         )
