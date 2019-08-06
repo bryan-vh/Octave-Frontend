@@ -11,7 +11,7 @@ export default class Saved extends Component {
 
         }
 
-        this.CLIENT_ID = 'ab53dc0007b34a1f9960b3e09715875d';
+        this.CLIENT_ID = 'CLIENT_ID';
     }
 
     loginSpotify = async () => {
