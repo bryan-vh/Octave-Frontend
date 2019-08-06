@@ -1,5 +1,4 @@
-### Octave Front End
-Front-end code for the Octave SPA.
+# Octave Front End
 
 ### React
 Octave uses React as the library/framework for its frontend.
