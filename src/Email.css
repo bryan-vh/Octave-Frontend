@@ -1,0 +1,25 @@
+.email-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.email-login-button {
+    width: 100%;
+}
+
+.email-signup-button {
+    width: 100%;
+}
+
+.email-segment {
+    display: flex;
+    flex-grow: 0.3;
+    width: 60%;
+}
+
+.register-button {
+    width: 100%;
+}

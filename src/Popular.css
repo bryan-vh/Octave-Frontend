@@ -1,0 +1,25 @@
+.popular-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    background-image: linear-gradient(orange, orangered);
+}
+
+.popular {
+    width: 90%;
+}
+
+.popular-divider {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.popular-title {
+    font-size: 48px !important;
+}
+
+.song-item {
+    padding-top: 30px !important;
+    /* padding-bottom: 30px !important; */
+}

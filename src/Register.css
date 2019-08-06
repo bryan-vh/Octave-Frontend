@@ -1,0 +1,16 @@
+.register-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.register-segment {
+    height: 70%;
+    width: 25%;
+}
+
+.register-button {
+    width: 100%;
+}

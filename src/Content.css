@@ -1,0 +1,113 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-image: linear-gradient(white, whitesmoke);
+    align-items: center;
+}
+
+.song-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.cancel-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.song-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.song-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.bpm-statistic > .value {
+    margin-top: 20px !important;
+    color: white !important;
+}
+
+.bpm-statistic > .label {
+    color: white !important;
+    margin-bottom: 20px !important;
+}
+
+.song-details-container {
+    max-width: 600px !important;
+}
+
+.song-details > h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 5px !important;
+}
+
+.song-details > h2 {
+    color: whitesmoke;
+}
+
+.play-button {
+    width: 100%;
+    background-color: white !important;
+}
+
+.play-button:hover {
+    background-color: whitesmoke !important;
+}
+
+.icon {
+    color: black;
+    /* margin-right: 0px !important; */
+}
+
+.cancel-button {
+    margin: 20px 20px !important;
+}
+
+.main-content > h1 {
+    font-size: 48px;
+}
+
+.button-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 170px;
+}
+
+.record-button {
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(white 50%, aqua) !important;
+}
+
+.statistics {
+    display: flex;
+}
+
+.statistic {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    margin-top: 0px !important;
+}
